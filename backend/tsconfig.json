@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "./src",
+    "./src/**/*.json"
+  ],
+  "exclude": ["node_modules"]
+}

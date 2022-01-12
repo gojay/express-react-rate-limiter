@@ -1,0 +1,9 @@
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*='col-'] {
+  flex-grow: 1;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
