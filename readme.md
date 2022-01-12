@@ -39,6 +39,6 @@ Running both backend and frontend with Docker
 docker-compose up
 ```
 
-### Demo
+### Demo Video
 
 https://drive.google.com/file/d/1PiRMh2uwSC-5veRyFWVcBk8bGWXqZGm_/view?usp=sharing
