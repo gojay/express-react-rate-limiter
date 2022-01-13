@@ -14,6 +14,22 @@ Running in production:
 
 ```bash
 yarn start
+```
+
+Testing:
+
+```bash
+# run all tests
+yarn test
+
+# run all tests in watch mode
+yarn test:watch
+```
+
+Test results:
+
+```bash
+
 
 yarn run v1.22.5
 $ npx jest --detectOpenHandles
@@ -54,16 +70,6 @@ Ran all test suites.
 Done in 3.14s.
 ```
 
-Testing:
-
-```bash
-# run all tests
-yarn test
-
-# run all tests in watch mode
-yarn test:watch
-```
-
 Docker:
 
 ```bash
@@ -96,5 +102,5 @@ RATE_LIMIT_CLEAN_INTERVAL_IN_MINUTES=1
 
 List of available routes:
 
-**Car routes**:\
+**Car routes**:
 `GET /api/cars` - get car list
